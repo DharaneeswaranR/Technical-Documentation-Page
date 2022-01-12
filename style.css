@@ -102,3 +102,10 @@ li {
         margin:  10px;
     }
 }
+
+/* For mobile screens */
+@media (max-width: 400px) {
+    #main-doc {
+        padding: 5px;
+    }
+}
