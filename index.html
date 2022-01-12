@@ -1,0 +1,292 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Python Documentation</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <header>
+            <h1>Python Documentation</h1>
+        </header>
+        <ul>
+            <li class="nav-link"><a href="#Introduction">Introduction</a></li>
+            <li class="nav-link"><a href="#About_Python_Programming">About Python Programming</a></li>
+            <li class="nav-link"><a href="#Why_Learn_Python?">Why Learn Python</a></li>
+            <li class="nav-link"><a href="#Hello_World">Hello World</a></li>
+            <li class="nav-link"><a href="#Comments">Comments</a></li>
+            <li class="nav-link"><a href="#Keywords">Keywords</a></li>
+            <li class="nav-link"><a href="#Variables">Variables</a></li>
+            <li class="nav-link"><a href="#Declaring_Variables">Declaring Variables</a></li>
+            <li class="nav-link"><a href="#Data_Types">Data Types</a></li>
+            <li class="nav-link"><a href="#if..else_statement">if..else statement</a></li>
+            <li class="nav-link"><a href="#Arithmetic_Operators">Arithmetic Operators</a></li>
+            <li class="nav-link"><a href="#Comparison_Operators">Comparison Operator</a></li>
+            <li class="nav-link"><a href="#Logical_Operators">Logical Operators</a></li>
+            <li class="nav-link"><a href="#Reference">Reference</a></li>
+        </ul>
+    </nav>
+    <!-- Main documentation starts-->
+    <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header>
+                <h2>Introduction</h2>
+            </header>
+            <article>
+                <p>Python is a powerful general-purpose programming language. It is used in web development, data
+                    science, creating software prototypes, and so on. Fortunately for beginners, Python has simple
+                    easy-to-use syntax. This makes Python an excellent language to learn to program for beginners.</p>
+            </article>
+        </section>
+        <section id="About_Python_Programming" class="main-section">
+            <header>
+                <h2>About Python Programming</h2>
+            </header>
+            <article>
+                <ul>
+                    <li><b>Free and open-source</b> - You can freely use and distribute Python, even for commercial use.
+                    </li>
+                    <li><b>Easy to learn</b> - Python has a very simple and elegant syntax. It's much easier to read and
+                        write
+                        Python programs compared to other languages like C++, Java, C#.</li>
+                    <li><b>Portable</b> - You can move Python programs from one platform to another, and run it without
+                        any
+                        changes.</li>
+                </ul>
+            </article>
+        </section>
+        <section id="Why_Learn_Python?" class="main-section">
+            <header>
+                <h2>Why Learn Python?</h2>
+            </header>
+            <article>
+                <ul>
+                    <li>Python has a lot of applications. It's used for developing web applications, data science, rapid
+                        application development, and so on.</li>
+                    <li>Python allows you to write programs in fewer lines of code than most of the programming
+                        languages.</li>
+                    <li>The popularity of Python is growing rapidly. Now it's one of the most popular programming
+                        languages.</li>
+                </ul>
+            </article>
+        </section>
+        <section id="Hello_World" class="main-section">
+            <header>
+                <h2>Hello World</h2>
+            </header>
+            <article>
+                <p><strong>Syntax:</strong> Set of rules that defines how a programming language is written and
+                    interpreted.</p>
+                <p>To get started writing Python, open the Python interpreter and write your first "Hello world" Python
+                    code:</p>
+                <code class="code-snippet">print("Hello World")</code>
+                <p>Click run and you will see <code>Hello World</code> is displayed in the console. This is a simple
+                    program to display content on the console.</p>
+            </article>
+        </section>
+        <section id="Comments" class="main-section">
+            <header>
+                <h2>Comments</h2>
+            </header>
+            <article>
+                <p>Comments are very important while writing a program. They describe what is going on inside a program,
+                    so that a person looking at the source code does not have a hard time figuring it out.</p>
+                <p>In Python, we use the hash (<b>#</b>) symbol to start writing a comment.
+                </p>
+                <code class="code-snippet">
+                    # This is a comment<br>
+                    # This code prints Hello World<br>
+                    print("Hello World")
+                </code>
+            </article>
+        </section>
+        <section id="Keywords" class="main-section">
+            <header>
+                <h2>Keywords</h2>
+            </header>
+            <article>
+                <p>Keywords are the reserved words in Python.</p>
+                <p>We cannot use a keyword as a variable name, function name or any other identifier. They are used to
+                    define the syntax and structure of the Python language. Every keyword have their own function.</p>
+                <p>Some keywords are - <code>def</code>, <code>if</code>, <code>else</code>, <code>for</code>,
+                    <code>while</code> etc.
+                </p>
+            </article>
+        </section>
+        <section id="Variables" class="main-section">
+            <header>
+                <h2>Variables</h2>
+            </header>
+            <article>
+                <p>A variable is a named location used to store data in the memory. It is helpful to think of variables
+                    as a container that holds data that can be changed later in the program. For example,</p>
+                <ul>
+                    <li>Identifiers can be a combination of letters in lowercase <b>(a to z)</b> or uppercase <b>(A to
+                            Z)</b> or digits <b>(0 to 9)</b> or an underscore <code>_</code>. </li>
+                    <li>An identifier cannot start with a digit. </li>
+                    <li>Keywords cannot be used as identifiers.</li>
+                </ul>
+            </article>
+        </section>
+        <section id="Declaring_Variables" class="main-section">
+            <header>
+                <h2>Declaring Variables</h2>
+            </header>
+            <article>
+                <p>A Python variable can be declared and intialized such as -</p>
+                <code class="code-snippet">
+                    number = 10<br>
+                    text = "Hello"
+                </code>
+                <p>Here, we have created a variable named <code>number</code>. We have assigned the value
+                    <code>10</code> to the variable.
+                </p>
+                <p>We can also change the value of an existing variable at any time.</p>
+                <code class="code-snippet">
+                    number = 10<br>
+                    number = 20
+                </code>
+                <p>Intially, the value of <code>number</code> was <code>10</code>, then it was changed to
+                    <code>20</code>.
+                </p>
+            </article>
+        </section>
+        <section id="Data_Types" class="main-section">
+            <header>
+                <h2>Data Types</h2>
+            </header>
+            <article>
+                <p>Every value in Python has a datatype. Since everything is an object in Python programming, data types
+                    are actually classes and variables are instance (object) of these classes.
+                </p>
+                <p>Python has the following data types:</p>
+                <ul>
+                    <li><strong>Boolean:</strong> <code>True</code> or <code>False</code></li>
+                    <li><strong>Null:</strong> <code>None</code></div>
+                    </li>
+                    <li><strong>Number:</strong> <code>int</code> and <code>float</code></li>
+                    <li><strong>String:</strong> "Hello, World" is of type <code>str</code></li>
+                </ul>
+            </article>
+        </section>
+        <section id="if..else_statement" class="main-section">
+            <header>
+                <h2>if..else statement</h2>
+            </header>
+            <article>
+                <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else
+                    clause to execute a statement if the condition is false. An if statement looks as follows:</p>
+                <code class="code-snippet">
+                    if condition:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;statements<br>
+                    else:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;statements
+                </code>
+                <p><Strong>Example:</Strong> Python code to check if a number is odd or even.</p>
+                <code class="code-snippet">
+                    num = 6<br>
+                    if num % 2:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;print("Even")<br>
+                    else:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;print("Odd")
+                </code>
+            </article>
+        </section>
+        <section id="Arithmetic_Operators" class="main-section">
+            <header>
+                <h2>Arithmetic Operators</h2>
+            </header>
+            <article>
+                <p>Operators are special symbols in Python that carry out arithmetic or logical computation. The value
+                    that the operator operates on is called the operand.</p>
+                <p>Arithmetic operators are used to perform mathematical operations like addition, subtraction,
+                    multiplication, etc.</p>
+                <p>Some arithmetic operators:</p>
+                <ul>
+                    <li>Addition: +</li>
+                    <li>Subtraction: -</li>
+                    <li>Multiplication: *</li>
+                    <li>Division: /</li>
+                    <li>Floor division: //</li>
+                    <li>Modulus: %</li>
+                    <li>Exponenet: **</li>
+                </ul>
+                <code class="code-snippet">
+                    x = 5 + 6<br>
+                    print(x)
+                </code>
+                <p>The above code will give output <code>11</code> as 5 + 6 = 11.</p>
+            </article>
+        </section>
+        <section id="Comparison_Operators" class="main-section">
+            <header>
+                <h2>Comparison Operators</h2>
+            </header>
+            <article>
+                <p>Comparison operators are used to compare values. It returns either True or False according to the
+                    condition.</p>
+                <ul>
+                    <li>> : Greater than</li>
+                    <li>
+                        < : Less than</li>
+                    <li>== : Equals to</li>
+                    <li>!= : Not equal to</li>
+                    <li>>= : Greater than or equal to</li>
+                    <li>
+                        <= : Less than or equal to</li>
+                </ul>
+                <code class="code-snippet">
+                    x = 10<br>
+                    y = 10<br>
+                    print(x == y)
+                </code>
+                <p>The above code will print <code>True</code> as x is equal to y.
+                </p>
+            </article>
+        </section>
+        <section id="Logical_Operators" class="main-section">
+            <header>
+                <h2>Logical Operators</h2>
+            </header>
+            <article>
+                <p>Logical operators are <code>and</code>, <code>or</code>, <code>not</code> operators.</p>
+                <ul>
+                    <li><code>and</code> : True if both operands are True</li>
+                    <li><code>or</code> : True if either of the operands is True</li>
+                    <li><code>not</code> : True if operand is False</li>
+                </ul>
+                <code class="code-snippet">
+                    x = True<br>
+                    y = False<br>
+
+                    print('x and y is',x and y)<br>
+                    print('x or y is',x or y)<br>
+                    print('not x is',not x)
+                </code>
+                <p><b>Output:</b></p>
+                <code class="code-snippet">
+                    x and y is False<br>
+                    x or y is True<br>
+                    not x is False
+                </code>
+            </article>
+        </section>
+        <section id="Reference" class="main-section">
+            <header>
+                <h2>Reference</h2>
+            </header>
+            <article>
+                <ul>
+                    <li>All the documentation on this page is taken from <a href="https://www.programiz.com/" target="_blank">programiz.com</a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
