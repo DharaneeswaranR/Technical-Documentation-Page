@@ -1,2 +1,2 @@
 # Technical-Documentation-Page
-Technical Documentation webpage using HTML and CSS. [Click here](https://dharaneeswaranr.github.io/Technical-Documentation-Page/) to check it out.
+A Responsive Web Design Project for [freecodecamp.org](https://www.freecodecamp.org/learn/responsive-web-design). Click [here](https://dharaneeswaranr.github.io/Technical-Documentation-Page/) to check it out.
